@@ -1,0 +1,23 @@
+
+Call:
+glm(formula = response ~ predictor1 + predictor2 + predictor3 + 
+    predictor1_quad, data = data)
+
+Coefficients:
+                  Estimate Std. Error  t value Pr(>|t|)    
+(Intercept)      1.9818375  0.8633428    2.296   0.0221 *  
+predictor1       1.5534139  0.0326023   47.647   <2e-16 ***
+predictor2      -0.5108602  0.0083266  -61.352   <2e-16 ***
+predictor3       2.0003825  0.0021197  943.698   <2e-16 ***
+predictor1_quad -0.0505478  0.0003183 -158.808   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.87817)
+
+    Null deviance: 1331707.00  on 499  degrees of freedom
+Residual deviance:     434.69  on 495  degrees of freedom
+AIC: 1361
+
+Number of Fisher Scoring iterations: 2
+
