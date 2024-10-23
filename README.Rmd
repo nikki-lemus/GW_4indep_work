@@ -1,6 +1,6 @@
 ---
 title: "Git and GitHub for collaborative research: Independet work"
-author: "Your name"
+author: "Nikki"
 output: 
   github_document:
     toc: yes

@@ -1,6 +1,6 @@
-Git and GitHub for collaborative research: Independet work
+Git and GitHub for collaborative research: Independent work
 ================
-Your name
+Nikki Lemus
 
 - [Project description](#project-description)
 - [Repository contents](#repository-contents)
