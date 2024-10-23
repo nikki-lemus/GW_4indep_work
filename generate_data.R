@@ -1,4 +1,4 @@
-# Set seed for reporduciiblity
+# Set seed for reproducibility
 set.seed(123)
 
 # 1. Data generation
@@ -11,5 +11,5 @@ response <- 3 + 1.5 * predictor1 - 0.5 * predictor2 + 2 * predictor3 + rnorm(n)
 # Create a data frame
 data <- data.frame(response, predictor1, predictor2, predictor3)
 
-# Export the genearted data as CSV
+# Export the generated data as CSV
 write.csv(data, "generated_data.csv", row.names = FALSE)
